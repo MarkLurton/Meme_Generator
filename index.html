@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="favicon.ico" type ="image/x-icon">
+</head>
+<body>
+    <h1>Sweet Memes Are Made of This!</h1>
+    <h3>Fill out this form to create your own hilarious memes!</h3>
+    <form class="memeform">
+        <label for="imgUrl">Image URL
+            <input type="text" id="imgUrl" placeholder="URL for your beautiful meme image">
+        </label>
+        <br>
+        <label for="topText">Top Text
+            <input type="text" id="topText" placeholder="Top text(optional)">
+        </label>
+        <br>
+        <label for="bottomText">Bottom Text
+            <input type="text" id="bottomText" placeholder="Bottom text(optional)">
+        </label>
+        <button id="submit">Make My Meme!</button>
+    </form>
+    <div id="memes"></div>
+    <script src="app.js"></script>
+</body>
+</html>
